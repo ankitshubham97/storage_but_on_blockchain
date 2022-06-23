@@ -3,7 +3,7 @@
 pragma solidity ^0.8.0;
 
 contract CheapStorage {
-  string public message;
+  string public message = "init_msg";
 
   function storeMessage(string memory _message) public {
       message = _message;
